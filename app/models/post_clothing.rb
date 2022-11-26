@@ -1,0 +1,2 @@
+class PostClothing < ApplicationRecord
+end
