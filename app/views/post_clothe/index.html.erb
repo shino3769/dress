@@ -1,0 +1,9 @@
+<% @Post_clothes.each do |post_clothe| %>
+<div>
+  <%= image_tag post_clothe.get_image %>
+  <p>投稿画像：<%= post_clothe. image %></p>
+  <p>タイトル：<%= post_clothe.title %></p>
+  <p>ジャンル：<%= post_clothe.genre %></p>
+  <p>ユーザーネーム：<%= post_clothe.user.name %></p>
+</div>
+<% end %>
